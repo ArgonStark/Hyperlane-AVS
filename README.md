@@ -97,14 +97,10 @@ eigenlayer operator status operator.yaml
 
 ### Install Nodejs 
 ``` 
-# remove nodejs 
-sudo apt-get remove nodejs
-sudo apt-get remove npm
-
-# install 
-sudo apt-get update
-curl -s https://deb.nodesource.com/setup_18.x | sudo bash 
-sudo apt install nodejs -y
+#install 
+sudo apt update
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+nvm install --lts
 node -v
 ```
 
