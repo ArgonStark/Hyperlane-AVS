@@ -102,7 +102,8 @@ sudo apt-get remove npm
 
 #install 
 sudo apt update
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+source ~/.bashrc
 nvm install --lts
 node -v
 ```
