@@ -80,7 +80,7 @@ Upload the logo of the operator to a publicly accessible location and set the ur
 
 ### Update your `operator.yaml` : 
 ``` 
-nano nano operator.yaml
+nano operator.yaml
 ```
 Add your metadata.json raw url in github in front of metadata-url
 
@@ -120,7 +120,7 @@ npm install -g @hyperlane-xyz/cli
     --chain <AVS_NETWORK> \
     --avsSigningKeyAddress <AVS_SIGNING_ADDRESS>
 ```
-The AVS_NETWORK is the network you're registering on, which can be ethereum or holesky.
+The AVS_NETWORK is the network you're registering on, which can be `ethereum` or `holesky`.
 
 #### Confirming registration
 ```
