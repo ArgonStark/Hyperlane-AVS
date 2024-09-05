@@ -97,6 +97,9 @@ eigenlayer operator status operator.yaml
 
 ### Install Nodejs 
 ``` 
+sudo apt-get remove nodejs
+sudo apt-get remove npm
+
 #install 
 sudo apt update
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
