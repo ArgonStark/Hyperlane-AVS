@@ -70,7 +70,7 @@ eigenlayer operator config create
 - `ETH rpc url`: https://ethereum-rpc.publicnode.com
 - `network`: mainnet
 - `signer type`: local_keystore
-- `ecdsa key path:`: /root/.eigenlayer/operator_keys/opr.ecdsa.key.json
+- `ecdsa key path:`: /root/.eigenlayer/operator_keys/[keyname].ecdsa.key.json
 
 The command will create two files: operator.yaml and metadata.json.
 
