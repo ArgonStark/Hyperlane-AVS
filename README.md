@@ -116,7 +116,7 @@ npm install -g @hyperlane-xyz/cli
 
 ### Register your operator 
 ```
- hyperlane avs register --operatorKeyPath /root/.eigenlayer/operator_keys/opr.ecdsa.key.json \
+ hyperlane avs register --operatorKeyPath /root/.eigenlayer/operator_keys/[keyname].ecdsa.key.json \
     --chain <AVS_NETWORK> \
     --avsSigningKeyAddress <AVS_SIGNING_ADDRESS>
 ```
