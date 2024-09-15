@@ -49,7 +49,7 @@ cd hyperlane-avs
 eigenlayer operator keys create --key-type ecdsa [keyname]
 eigenlayer operator keys create --key-type bls [keyname]
 ```
-ou can also create keys by piping your password to this command. This can help in automated key creation and will not prompt for password. 
+You can also create keys by piping your password to this command. This can help in automated key creation and will not prompt for password. 
 ```
 echo "password" | eigenlayer operator keys create --key-type ecdsa [keyname]
 ```
